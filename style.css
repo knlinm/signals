@@ -1,0 +1,42 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: CrystalUni-Medium;
+    src: url(crystaluni-medium-webfont.woff2);
+}
+html{
+    height: 85px;
+    width: 302px;
+}
+body {
+    height: 85px;
+    width: 302px;
+    background-image: url(download.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.win-caption {
+    color: #fefefe;
+    height: 21px;
+    font-family: 'CrystalUni-Medium';
+    font-size: 14px;
+}
+.win-value {
+    font-size: 17px;
+    color: #45b11b;
+    font-family: 'CrystalUni-Medium';
+}
+.win-value span {
+    font-size: 12px;
+}
+.money{
+    display: inline;
+}

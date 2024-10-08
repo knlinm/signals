@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="win-caption">Win</div>
+    <div class="win-value"><div class="money">24.00</div><span>TRY</span></div>
+</body>
+
+<script>
+    document.getElementsByClassName("money")[0].innerText = location.href.split("/").slice(-1)[0].slice(0,7)
+</script>
+
+</html>
